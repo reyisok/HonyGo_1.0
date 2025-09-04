@@ -1,13 +1,4 @@
-# HonyGo System Copyright Notice
 
-### HonyGo System Description
-HonyGo System is an experimental system designed for learning  simulated operations. It is for personal learning use only. Developed by the HonyGo System Team (including AI assistants)
-
-Enjoy your lucky day
-
-Mr.Rey
-
----
 
 ## Copyright Notice（English Version）
 
@@ -45,14 +36,6 @@ To obtain authorization beyond the scope of "personal reference and learning" (s
 *   Contact Person: Mr.Rey
 *   Contact Information: reyisok@live.com / GitHub Account @reyisok
 
----
-
-### HonyGo System 系统说明
-HonyGo System 是一个用于学习 模拟操作的实验性系统，仅限个人学习用途，By HonyGo System 团队（包含 AI 助手）
-
-Enjoy your lucky day
-
-Mr.Rey
 
 ---
 
