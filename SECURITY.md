@@ -56,7 +56,7 @@ The currently supported versions of this project are \[specific version range, e
 
 2.  **Immunity Scope**: For security researchers who report vulnerabilities in accordance with this policy, we will not hold you liable for temporary project instability caused by normal testing operations (provided such operations do not exceed the scope of reasonable security testing). However, if your actions exceed the scope permitted by this policy and cause substantial damage to the project, we reserve the right to pursue legal recourse.
 
-
+3.  **Respect and Acknowledgment**: We respect the hard work and contributions of all security researchers. For those who successfully discover and report valid security vulnerabilities, we will publicly acknowledge your contribution in relevant project documents (e.g., security announcements, acknowledgment lists) to express our sincere gratitude.
 
 -----
 
@@ -123,7 +123,4 @@ The currently supported versions of this project are \[specific version range, e
 
 3.  **尊重与致谢**：我们尊重每一位安全研究人员的辛勤付出和贡献。对于成功发现并报告有效安全漏洞的研究人员，我们将在项目相关文档（如安全公告、致谢名单等）中对您的贡献予以公开致谢，以表达我们的诚挚感谢。
 
-> （注：文档部分内容可能由 AI 生成）
-3.  **Respect and Acknowledgment**: We respect the hard work and contributions of all security researchers. For those who successfully discover and report valid security vulnerabilities, we will publicly acknowledge your contribution in relevant project documents (e.g., security announcements, acknowledgment lists) to express our sincere gratitude.
 
-> （注：文档部分内容可能由 AI 生成）
