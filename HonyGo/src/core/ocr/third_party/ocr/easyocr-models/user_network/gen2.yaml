@@ -1,0 +1,35 @@
+network_params:
+  input_channel: 3
+  output_channel: 512
+  hidden_size: 256
+  
+character:
+  character_list: "0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+  
+model:
+  prediction: 'Attn'
+  feature_extraction: 'ResNet'
+  sequence_modeling: 'BiLSTM'
+  
+data:
+  batch_max_length: 25
+  imgH: 64
+  imgW: 200
+  rgb: False
+  
+optimization:
+  batch_size: 192
+  num_iter: 300000
+  lr: 1.0
+  beta1: 0.9
+  beta2: 0.999
+  rho: 0.95
+  eps: 0.00000001
+  grad_clip: 5
+  
+validation:
+  valInterval: 2000
+  
+save:
+  saved_model: './saved_models/'
+  log_multiple_test: False

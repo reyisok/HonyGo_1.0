@@ -1,0 +1,36 @@
+{
+  "roi_regions": [
+    {
+      "name": "全屏区域",
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 960,
+      "priority": 1,
+      "enabled": true,
+      "description": "完整屏幕区域"
+    },
+    {
+      "name": "中心区域",
+      "x": 384,
+      "y": 240,
+      "width": 768,
+      "height": 480,
+      "priority": 2,
+      "enabled": true,
+      "description": "屏幕中心区域，常见UI元素位置"
+    },
+    {
+      "name": "底部区域",
+      "x": 0,
+      "y": 720,
+      "width": 1536,
+      "height": 240,
+      "priority": 3,
+      "enabled": true,
+      "description": "底部操作区域，按钮和状态栏"
+    }
+  ],
+  "roi_history": [],
+  "last_updated": 1756641822.7906299
+}

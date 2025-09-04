@@ -1,0 +1,45 @@
+{
+  "region_patterns": {},
+  "text_statistics": {
+    "继续": {
+      "total_detections": 19,
+      "successful_detections": 0,
+      "avg_processing_time": 7.222811297366493,
+      "preferred_regions": [],
+      "last_detection_time": 1756585323.6868572,
+      "detection_intervals": [
+        66.52624678611755,
+        20.007558345794678,
+        16.349084854125977,
+        17.63173007965088,
+        26.362273693084717,
+        777.7754158973694,
+        21.25737190246582,
+        11.000039100646973,
+        645.7198784351349,
+        11.481508731842041,
+        27.888213396072388,
+        2418.423909187317,
+        315.6301577091217,
+        153.8530774116516,
+        6999.770055770874,
+        31.630059242248535,
+        412.3141770362854,
+        336.88494420051575
+      ]
+    }
+  },
+  "heatmap_data": {},
+  "adaptive_intervals": {
+    "继续": 300
+  },
+  "performance_metrics": {
+    "prediction_accuracy": 0.0,
+    "avg_prediction_time": 2.8111717917702414e-05,
+    "pattern_discovery_rate": 0.0,
+    "adaptive_improvement": 0.0,
+    "total_predictions": 11,
+    "correct_predictions": 0
+  },
+  "last_updated": 1756636381.0729558
+}

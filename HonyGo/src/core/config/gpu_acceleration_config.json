@@ -1,0 +1,41 @@
+{
+  "acceleration": {
+    "auto_detect": true,
+    "preferred_type": "cuda",
+    "fallback_enabled": true,
+    "device_id": 0,
+    "memory_limit_mb": null,
+    "batch_size": 1,
+    "precision": "fp32",
+    "optimization_level": 1
+  },
+  "cuda": {
+    "enabled": true,
+    "min_compute_capability": "3.5",
+    "memory_fraction": 0.8,
+    "allow_growth": true,
+    "use_tensorrt": false
+  },
+  "mps": {
+    "enabled": true,
+    "fallback_to_cpu": true
+  },
+  "opencl": {
+    "enabled": false,
+    "platform_id": 0,
+    "device_id": 0
+  },
+  "performance": {
+    "benchmark_on_init": true,
+    "warmup_iterations": 3,
+    "benchmark_iterations": 10,
+    "memory_monitoring": true,
+    "auto_optimization": true
+  },
+  "compatibility": {
+    "easyocr_gpu": true,
+    "opencv_gpu": false,
+    "torch_gpu": true,
+    "tensorflow_gpu": false
+  }
+}

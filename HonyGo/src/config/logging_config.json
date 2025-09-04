@@ -1,0 +1,134 @@
+{
+  "LoggingConfiguration": {
+    "GlobalSettings": {
+      "LogDirectory": "data/logs",
+      "DefaultLogLevel": "INFO",
+      "EnableConsoleOutput": true,
+      "EnableFileOutput": true,
+      "MaxRetryAttempts": 3,
+      "RetryDelayMs": 10,
+      "DuplicateCheckWindowMinutes": 5,
+      "FileShareMode": "ReadWrite"
+    },
+    "LogFiles": {
+      "Application": {
+        "FileName": "HonyGo_App.log",
+        "LogLevel": "INFO",
+        "MaxFileSizeMB": 10,
+        "MaxBackupFiles": 5,
+        "EnableRotation": true,
+        "RotationInterval": "Daily",
+        "Categories": ["APPLICATION", "GENERAL"]
+      },
+      "Error": {
+        "FileName": "HonyGo_Error.log",
+        "LogLevel": "ERROR",
+        "MaxFileSizeMB": 5,
+        "MaxBackupFiles": 10,
+        "EnableRotation": true,
+        "RotationInterval": "Daily",
+        "Categories": ["ERROR", "EXCEPTION"]
+      },
+      "Warning": {
+        "FileName": "HonyGo_Warning.log",
+        "LogLevel": "WARNING",
+        "MaxFileSizeMB": 5,
+        "MaxBackupFiles": 5,
+        "EnableRotation": true,
+        "RotationInterval": "Daily",
+        "Categories": ["WARNING"]
+      },
+      "Debug": {
+        "FileName": "HonyGo_Debug.log",
+        "LogLevel": "DEBUG",
+        "MaxFileSizeMB": 20,
+        "MaxBackupFiles": 3,
+        "EnableRotation": true,
+        "RotationInterval": "Daily",
+        "Categories": ["DEBUG", "TRACE"]
+      },
+      "Operation": {
+        "FileName": "HonyGo_Operation.log",
+        "LogLevel": "INFO",
+        "MaxFileSizeMB": 15,
+        "MaxBackupFiles": 7,
+        "EnableRotation": true,
+        "RotationInterval": "Daily",
+        "Categories": ["OPERATION", "USER_ACTION"]
+      },
+      "System": {
+        "FileName": "HonyGo_System.log",
+        "LogLevel": "INFO",
+        "MaxFileSizeMB": 10,
+        "MaxBackupFiles": 5,
+        "EnableRotation": true,
+        "RotationInterval": "Daily",
+        "Categories": ["SYSTEM", "SERVICE"]
+      },
+      "OCR": {
+        "FileName": "HonyGo_OCR.log",
+        "LogLevel": "INFO",
+        "MaxFileSizeMB": 25,
+        "MaxBackupFiles": 7,
+        "EnableRotation": true,
+        "RotationInterval": "Daily",
+        "Categories": ["OCR", "RECOGNITION"]
+      },
+      "Performance": {
+        "FileName": "HonyGo_Performance.log",
+        "LogLevel": "INFO",
+        "MaxFileSizeMB": 15,
+        "MaxBackupFiles": 5,
+        "EnableRotation": true,
+        "RotationInterval": "Daily",
+        "Categories": ["PERFORMANCE", "METRICS"]
+      },
+      "Fallback": {
+        "FileName": "HonyGo_fallback.log",
+        "LogLevel": "ERROR",
+        "MaxFileSizeMB": 5,
+        "MaxBackupFiles": 3,
+        "EnableRotation": true,
+        "RotationInterval": "Daily",
+        "Categories": ["FALLBACK", "EMERGENCY"]
+      }
+    },
+    "LogRouting": {
+      "ERROR": ["Error", "Fallback"],
+      "WARNING": ["Warning"],
+      "INFO": ["Application"],
+      "DEBUG": ["Debug"],
+      "OPERATION": ["Operation"],
+      "SYSTEM": ["System"],
+      "OCR": ["OCR"],
+      "PERFORMANCE": ["Performance"]
+    },
+    "FormatSettings": {
+      "TimestampFormat": "yyyy-MM-dd HH:mm:ss.fff",
+      "DateFormat": "yyyy-MM-dd",
+      "ConsoleTimestampFormat": "HH:mm:ss.fff",
+      "LogEntryTemplate": "[{timestamp}] [{level}] [{category}] [Thread-{threadId}] {message}",
+      "ConsoleLogEntryTemplate": "[{timestamp}] [{level}] {message}",
+      "FileHeaderTemplate": "# HonyGo {logType} Log\n# 描述: {description}\n# 日志级别: {levels}\n# 创建时间: {timestamp}\n# 格式: [时间戳] [级别] [分类] [线程] 消息\n# ================================================\n"
+     },
+     "PerformanceMonitoring": {
+      "EnableMetrics": true,
+      "MetricsIntervalSeconds": 60,
+      "TrackWriteLatency": true,
+      "TrackFileSize": true,
+      "TrackErrorRate": true,
+      "AlertThresholds": {
+        "MaxWriteLatencyMs": 100,
+        "MaxFileSizeMB": 50,
+        "MaxErrorRatePercent": 5
+      }
+    },
+    "ArchiveSettings": {
+      "EnableArchiving": true,
+      "ArchiveAfterDays": 30,
+      "ArchiveDirectory": "Logs\\Archive",
+      "CompressionEnabled": true,
+      "DeleteAfterArchiveDays": 90
+    }
+  }
+}

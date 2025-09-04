@@ -1,0 +1,55 @@
+{
+  "prediction": {
+    "max_regions": 5,
+    "min_confidence": 0.3,
+    "history_weight": 0.6,
+    "layout_weight": 0.25,
+    "heuristic_weight": 0.15,
+    "overlap_threshold": 0.3
+  },
+  "history": {
+    "max_records": 10000,
+    "success_boost": 0.2,
+    "time_decay_factor": 0.1,
+    "resolution_tolerance": 0.1
+  },
+  "layout_analysis": {
+    "grid_divisions": 12,
+    "common_ui_regions": true,
+    "text_density_analysis": true,
+    "edge_detection": true
+  },
+  "heuristics": {
+    "button_keywords": [
+      "继续",
+      "continue",
+      "确定",
+      "ok",
+      "下一步",
+      "next",
+      "完成",
+      "finish"
+    ],
+    "dialog_keywords": [
+      "对话",
+      "dialog",
+      "弹窗",
+      "popup",
+      "提示",
+      "alert"
+    ],
+    "menu_keywords": [
+      "菜单",
+      "menu",
+      "选项",
+      "options",
+      "设置",
+      "settings"
+    ]
+  },
+  "cache": {
+    "enabled": true,
+    "max_entries": 1000,
+    "ttl_seconds": 300
+  }
+}

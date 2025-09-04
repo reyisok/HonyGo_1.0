@@ -1,0 +1,66 @@
+{
+  "ocr_pool": {
+    "host": "127.0.0.1",
+    "port": 8900,
+    "min_instances": 2,
+    "max_instances": 8,
+    "enable_cache": true,
+    "enable_scaling": true,
+    "cache_size": 1000,
+    "cache_ttl": 3600
+  },
+  "monitoring": {
+    "enabled": true,
+    "interval": 5.0,
+    "auto_optimize": true,
+    "optimization_threshold": {
+      "cpu_usage": 80.0,
+      "memory_usage": 85.0,
+      "response_time": 2.0,
+      "error_rate": 5.0
+    }
+  },
+  "dashboard": {
+    "enabled": true,
+    "host": "127.0.0.1",
+    "port": 8081,
+    "auto_refresh_interval": 3000
+  },
+  "easyocr": {
+    "languages": ["ch_sim", "en"],
+    "gpu": true,
+    "quantize": true,
+    "memory_optimize": true,
+    "batch_size": 4,
+    "model_storage_directory": "src/core/ocr/third_party/ocr/easyocr-models",
+    "user_network_directory": "src/core/ocr/third_party/ocr/easyocr-models/user_network"
+  },
+  "keyword_matching": {
+    "enable_parallel": true,
+    "max_workers": 4,
+    "enable_cache": true,
+    "cache_size": 500
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file_rotation": true,
+    "max_file_size": "10MB",
+    "backup_count": 5
+  },
+  "performance": {
+    "warmup_on_start": true,
+    "memory_cleanup_interval": 300,
+    "aggressive_memory_cleanup": false,
+    "gpu_memory_fraction": 0.8
+  },
+  "testing": {
+    "run_initial_test": false,
+    "test_image_paths": [
+      "core/ocr/third_party/ocr/ocr_test1.png",
+      "core/ocr/third_party/ocr/ocr_test2.png"
+    ],
+    "concurrent_requests": 10,
+    "test_duration": 30
+  }
+}

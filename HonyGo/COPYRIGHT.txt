@@ -1,0 +1,93 @@
+# HonyGo System Copyright Notice
+
+### HonyGo System Description
+HonyGo System is an experimental system designed for learning  simulated operations. It is for personal learning use only. Developed by the HonyGo System Team (including AI assistants)
+
+Enjoy your lucky day
+
+Mr.Rey
+
+---
+
+## Copyright Notice（English Version）
+
+#### 1. Copyright Entity Information
+
+*   Primary Copyright Holder: Mr.Rey (Individual Developer)
+*   Copyright Effective Date: August 27, 2025
+*   @author: Mr.Rey
+
+#### 2. Copyright Scope Description
+
+The "Software" covered by this notice includes but is not limited to: source code files (.java, .py, .js,.cs, etc.), configuration files, project documents, and supporting scripts (such as start/stop scripts, deployment scripts, etc.).
+
+The copyright of the above content belongs to the primary copyright holder (Mr.Rey).
+
+#### 3. Core Usage Restrictions
+
+Pursuant to the provisions in the "II. LICENSE" section of this document (the agreement in the original supporting file LICENSE.txt, i.e., the Revised MIT License described in the "II. LICENSE" section of this document), the use of the Software is strictly limited to "personal reference and learning purposes". Here, "person" specifically refers to non-commercial individuals such as student individuals and independent developer individuals, and does not include individual users under the name of enterprises/organizations. Any use beyond this scope requires written permission from the primary copyright holder (Mr.Rey). The following acts are strictly prohibited:
+
+*   Using the Software for commercial activities, including but not limited to obtaining direct or indirect benefits through the Software, providing technical support for commercial projects, etc.;
+*   Deploying the Software to enterprise servers, public cloud platforms, or using it for internal business processing of organizations;
+*   Sharing or distributing the complete or partial content of the Software to third parties without authorization, including but not limited to uploading to public code repositories (such as GitHub, Gitee, etc.) and distributing through social platforms;
+*   Modifying the Software for non-learning purposes, or developing other products based on the Software for commercial or organizational scenarios.
+
+#### 4. Reserved Rights and Liability Statement
+
+*   The primary copyright holder (Mr.Rey) reserves core rights such as modifying, updating, and terminating the authorization of the Software;
+*   If the user violates the provisions of this Copyright Notice and the LICENSE, the primary copyright holder (Mr.Rey) has the right to pursue legal liability;
+*   The Software is provided only for personal learning and reference. The copyright holders do not make any guarantees regarding the functionality, security, or applicability of the Software. The copyright holders shall not be liable for any losses incurred by the user due to the use of the Software, except for losses caused by the copyright holders intentionally providing software versions with known major security vulnerabilities.
+
+#### 5. Authorization Consultation Method
+
+To obtain authorization beyond the scope of "personal reference and learning" (such as non-commercial team use, educational institution teaching use, etc.), please contact the primary copyright holder:
+
+*   Contact Person: Mr.Rey
+*   Contact Information: reyisok@live.com / GitHub Account @reyisok
+
+---
+
+### HonyGo System 系统说明
+HonyGo System 是一个用于学习 模拟操作的实验性系统，仅限个人学习用途，By HonyGo System 团队（包含 AI 助手）
+
+Enjoy your lucky day
+
+Mr.Rey
+
+---
+
+### 版权声明（中文版）
+
+#### 1. 版权主体信息
+
+*   主要版权所有者：Mr.Rey（个人开发者）
+*   版权生效日期：2025 年 8 月 27 日
+*   作者：Mr.Rey
+
+#### 2. 版权范围说明
+
+本声明所涵盖的 "软件" 包括但不限于：源代码文件（.java、.py、.js 、.cs等）、配置文件、项目文档及配套脚本（如启停脚本、部署脚本等）。
+
+上述内容的版权归主要版权所有者 Mr.Rey 所有。
+
+#### 3. 核心使用限制
+
+根据本文件 "二、许可证" 部分的约定（原配套文件 LICENSE.txt 约定，即本文件内 "二、许可证" 章节所述的 MIT 协议修订版），软件的使用严格限定于 "个人参考和学习用途"，其中 "个人" 特指学生个人、独立开发者个人等非商业性质的个体，不包含企业 / 组织名义下的个体使用者。任何超出该范围的行为均需获得主要版权所有者 Mr.Rey 的书面许可，严禁以下行为：
+
+*   将软件用于商业活动，包括但不限于通过软件直接或间接获取收益、为商业项目提供技术支持等；
+*   将软件部署至企业服务器、公共云平台或用于组织内部业务处理；
+*   未经授权向第三方分享、传播软件的完整或部分内容，包括但不限于上传至公开代码仓库（如 GitHub、Gitee 等）、通过社交平台分发等；
+*   对软件进行修改后用于非学习目的，或基于软件衍生开发其他用于商业、组织场景的产品。
+
+#### 4. 权利保留与责任声明
+
+*   主要版权所有者 Mr.Rey 保留对软件的修改、更新、终止授权等核心权利；
+*   若使用者违反本版权声明及许可证中的约定，主要版权所有者 Mr.Rey 有权追究其法律责任；
+*   软件仅为个人学习参考提供，版权所有者不对软件的功能性、安全性及适用性做任何保证；使用者因使用软件产生的任何损失，版权所有者不承担赔偿责任，但因版权所有者故意提供存在已知重大安全漏洞的软件版本导致的损失除外。
+
+#### 5. 授权咨询方式
+
+如需获取超出 "个人参考学习" 范围的授权（如非商业团队使用、教育机构教学使用等），请联系主要版权所有者：
+
+*   联系人：Mr.Rey
+*   联系方式：reyisok@live.com/ GitHub 账号 @reyisok

@@ -1,0 +1,49 @@
+# HonyRunGo System License Agreement
+
+### HonyRunGo System Description
+HonyGo System is an experimental system designed for learning simulated operations. It is for personal learning use only. Developed by the HonyGo System Team (including AI assistants)
+
+Enjoy your lucky day
+
+Mr.Rey
+
+---
+
+## English Version（Revised MIT License）
+
+# MIT License
+
+Copyright (c) 2025 Mr.Rey
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software exclusively for personal reference and learning purposes (where "person" refers to non-commercial individuals such as student individuals and independent developer individuals, excluding individual users under the name of enterprises/organizations), subject to the following conditions:
+
+1.  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software;
+2.  The Software shall not be used for commercial purposes (including but not limited to profitable project development, paid service provision, etc.), internal business scenarios of enterprises/organizations, or public network deployment;
+3.  Without the written permission of the primary copyright holder (Mr.Rey), the Software (in its complete or modified version) shall not be distributed or transmitted to third parties.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE, EXCEPT FOR LOSSES CAUSED BY THE COPYRIGHT HOLDERS intentionally providing software versions with known major security vulnerabilities.
+
+---
+
+### HonyRunGo System 系统说明
+HonyGo System 是一个用于学习模拟操作的实验性系统，仅限个人学习用途，By HonyGo System 团队（包含 AI 助手）
+
+Enjoy your lucky day
+
+Mr.Rey
+
+---
+
+### 中文版（MIT 协议修订版）
+
+# MIT 许可证
+
+版权所有 (c) 2025 Mr.Rey
+
+特此授予任何获得本软件及相关文档文件（以下简称 "软件"）副本的人，免费且无限制地处理本软件的权利，但仅限个人参考和学习用途（其中 "个人" 特指学生个人、独立开发者个人等非商业性质的个体，不包含企业 / 组织名义下的个体使用者），须遵守以下条件：
+
+1.  上述版权声明和本许可声明应包含在本软件的所有副本或实质性部分中；
+2.  不得将本软件用于商业目的（包括但不限于盈利性项目开发、付费服务提供等）、企业 / 组织内部业务场景或公共网络部署；
+3.  未经主要版权所有者 Mr.Rey 书面许可，不得向第三方分发、传播本软件的完整版本或修改版本。
+
+本软件按 "原样" 提供，不提供任何形式的保证，无论是明示的还是暗示的，包括但不限于适销性、针对特定用途的适用性和非侵权性的保证。在任何情况下，版权所有者均不对因使用本软件或与本软件相关的任何索赔、损害或其他责任承担责任，但因版权所有者故意提供存在已知重大安全漏洞的软件版本导致的损失除外。
